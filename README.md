@@ -29,7 +29,10 @@ web
 
 nginx server rewrite rule
 -------------------
+
+```
 if (!-e $request_filename){
     rewrite ^/(.*) /index.php?r=$1 last;
 }
+```
 
