@@ -1,2 +1,4 @@
 <?php
-return [];
+return [
+    'adminEmail' => 'admin@example.com',
+];
